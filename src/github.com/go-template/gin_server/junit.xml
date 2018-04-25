@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-  <testsuite tests="1" failures="0" time="0.000123292">
-      <testcase name="TestGinServer hello world" classname="Gin Engine Suite" time="4.0468e-05"></testcase>
-  </testsuite>

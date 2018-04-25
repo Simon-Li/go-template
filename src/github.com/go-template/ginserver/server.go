@@ -1,4 +1,4 @@
-package gin_server
+package ginserver
 
 import (
 	"net/http"
@@ -6,7 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func GinEngine() *gin.Engine {
+// Engine create a gin engine
+func Engine() *gin.Engine {
 	ge := gin.New()
 
 	ge.Use(gin.Recovery())

@@ -1,4 +1,4 @@
-package gin_server_test
+package ginserver_test
 
 import (
 	"github.com/gin-gonic/gin"
@@ -11,6 +11,10 @@ var _ = Describe("TestGinServer", func() {
 	var (
 		engine *gin.Engine
 	)
+
+	BeforeEach(func() {
+		engine = NewTestGinEngine()
+	})
 
 	It("hello world", func() {
 		str := "hello world"
