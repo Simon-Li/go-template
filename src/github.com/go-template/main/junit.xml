@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <testsuite tests="2" failures="0" time="0.860280585">
-      <testcase name="Integration Tests responds to web-site with valid HTML" classname="Main Suite" time="0.860069063"></testcase>
-      <testcase name="Integration Tests Expect variable increment" classname="Main Suite" time="4.4784e-05"></testcase>
+  <testsuite tests="2" failures="0" time="0.718308804">
+      <testcase name="Integration Tests responds to web-site with valid HTML" classname="Main Suite" time="0.718106049"></testcase>
+      <testcase name="Integration Tests Expect variable increment" classname="Main Suite" time="4.5365e-05"></testcase>
   </testsuite>

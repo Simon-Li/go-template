@@ -1,4 +1,4 @@
-package gin_test
+package gin_server_test
 
 import (
 	"testing"
