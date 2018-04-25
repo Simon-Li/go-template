@@ -1,4 +1,4 @@
-package main_test
+package gin_test
 
 import (
 	"testing"
@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestMain(t *testing.T) {
+func TestGinEngine(t *testing.T) {
 	RegisterFailHandler(Fail)
-	TestPackage(t, "Main Suite")
+	TestPackage(t, "Gin Engine Suite")
 }
