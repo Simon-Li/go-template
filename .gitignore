@@ -1,5 +1,2 @@
-/go/src/github.com
-/go/src/golang.org
-/go/src/gopkg.in
-/go/pkg
-/go/bin
+/src/github.com/go-template/vendor
+/pkg

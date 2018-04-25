@@ -1,5 +1,5 @@
 echo "Exporting GOPATH"
-export GOPATH=$(pwd)/go
-export GOBIN=$(pwd)/go/bin
-export PATH=.:$GOPATH/bin:$PATH
+export GOPATH=$PWD
+export GOBIN=$PWD/bin
+export PATH=.:$GOPATH/bin:$PWD/bin:$PATH
 
