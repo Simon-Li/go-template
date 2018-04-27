@@ -16,5 +16,11 @@ func Engine() *gin.Engine {
 		c.Status(http.StatusOK)
 	})
 
+	ge.GET("/doc", func(c *gin.Context) {
+		location := "/doc-api"
+
+		c.Redirect(http.StatusMovedPermanently, location)
+	})
+
 	return ge
 }

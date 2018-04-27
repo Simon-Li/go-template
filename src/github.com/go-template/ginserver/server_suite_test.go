@@ -1,6 +1,9 @@
 package ginserver_test
 
 import (
+	"io"
+	"net/http"
+	"net/http/httptest"
 	"testing"
 
 	"github.com/gin-gonic/gin"
@@ -18,4 +21,21 @@ func TestGinEngine(t *testing.T) {
 func NewTestGinEngine() *gin.Engine {
 
 	return ginserver.Engine()
+}
+
+func doRequest(engine http.Handler, method, path string, headers map[string]string, body io.Reader) *httptest.ResponseRecorder {
+	req, err := http.NewRequest(method, path, body)
+	if err != nil {
+		panic(err)
+	}
+
+	if headers != nil {
+		for k, v := range headers {
+			req.Header.Add(k, v)
+		}
+	}
+
+	resp := httptest.NewRecorder()
+	engine.ServeHTTP(resp, req)
+	return resp
 }
