@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <testsuite tests="1" failures="0" time="0.000898244">
-      <testcase name="Test signal handling test basic signal handling works handles basic signal operations" classname="Signal Suite" time="0.000819543"></testcase>
+  <testsuite tests="1" failures="0" time="0.000924939">
+      <testcase name="Test signal handling test basic signal handling works handles basic signal operations" classname="Signal Suite" time="0.000843139"></testcase>
   </testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="1" failures="0" time="0.000127036">
+      <testcase name="Test interface handling test basic interface handling works handles basic interface assertion" classname="Interface Suite" time="5.6094e-05"></testcase>
+  </testsuite>
